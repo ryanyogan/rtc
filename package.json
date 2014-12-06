@@ -10,7 +10,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "watch": "watchify -e app/bootstrap.js -a public/js/bundle.js -v",
-    "build": "browserify -e app/bootstrap.js -t uglifyify -a public/js/bundle.min.js"
+    "watch": "watchify -e app/bootstrap.js -o public/js/bundle.js -v",
+    "build": "browserify -e app/bootstrap.js -t uglifyify -o public/js/bundle.min.js"
   }
 }
